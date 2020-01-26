@@ -1,0 +1,42 @@
+* {
+  flex: 0 0 0%;
+  flex-grow: row nowrap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  flex: 1 1 0%;
+  display: flex;
+}
+
+.chat-window {
+  flex: 1 0 0%;
+}
+
+/* --- Sidebar --- */
+
+.chat-sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-conversation-list {
+  flex: 1 0 0%;
+}
+
+.chat-new-message a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 2rem;
+  background: #fff;
+}
