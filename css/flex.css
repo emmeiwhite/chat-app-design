@@ -16,6 +16,21 @@ body {
 
 .chat-window {
   flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-window-main {
+  flex: 1 0 0%;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+.chat-window-header {
+  padding: 0.5rem 1rem;
+}
+
+.chat-window-header h1 {
+  color: rgb(67, 67, 195);
 }
 
 /* --- Sidebar --- */
@@ -45,6 +60,7 @@ body {
   justify-content: center;
   height: 40px;
   width: 40px;
+  flex: 0 0 40px;
   border-radius: 50%;
   font-size: 2rem;
   background: #fff;
