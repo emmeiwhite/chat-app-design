@@ -27,6 +27,10 @@ body {
 }
 .chat-window-header {
   padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
 }
 
 .chat-window-header h1 {

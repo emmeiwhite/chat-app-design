@@ -35,6 +35,10 @@ html {
   border-radius: 0 10px 10px 0;
 }
 
+.trash-logo {
+  stroke: #0048aa;
+  height: 36px;
+}
 /* --- putting search icon within input box */
 .chat-search {
   padding: 0 20px;
