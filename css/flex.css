@@ -31,10 +31,12 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #eee;
+  flex: 0 0 50px;
 }
 
 .chat-window-header h1 {
   color: rgb(67, 67, 195);
+  flex: 1 0 0%;
 }
 
 /* --- Sidebar --- */
@@ -46,12 +48,13 @@ body {
 
 .chat-conversation-list {
   flex: 1 0 0%;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
 }
 
 .chat-new-message {
-  border-top: 1px solid rgba(0, 0, 0, 0.25);
   padding: 0 15px;
-  flex: 0 0 71px;
+  flex: 0 0 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,10 +65,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
-  width: 40px;
-  flex: 0 0 40px;
+  height: 30px;
+  width: 30px;
+  flex: 0 0 30px;
   border-radius: 50%;
   font-size: 2rem;
   background: #fff;
+}
+
+/* ---chat-main footer --- */
+
+.chat-window-footer {
+  padding: 0 4rem;
+  display: flex;
+  flex: 0 0 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.message-input {
+  outline: none;
+  border: 2px solid #ddd;
+  flex: 1 0 0%;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  color: #330;
+  border-radius: 6px;
 }
